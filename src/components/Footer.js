@@ -3,6 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer
+      id="footer"
       className="footer pt-100 img-bg"
       style={{ backgroundImage: "url('assets/img/footer-bg.jpg')" }}
     >
@@ -13,12 +14,16 @@ const Footer = () => {
             <div className="col-xl-4 col-lg-5 col-md-6">
               <div className="footer-widget mb-30">
                 <a href="index.html" className="logo">
-                  <img src="assets/img/logo_revivo.png" alt="Revivo Clinic" width="150px" />
+                  <img
+                    src="assets/img/logo_revivo.png"
+                    alt="Revivo Clinic"
+                    width="150px"
+                  />
                 </a>
                 <p>
-                  Lorem ipsum dolor serit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore dolore magna
-                  aliquyam erat diam voluptua.
+                  FOR APPOINTMENTS YOU CAN WRITE US ON SOCIAL MEDIAS BELOW OR
+                  CALL ON THESE NUMBERS: <br></br>
+                  +383 49 28 55 77 & +383 49 970 903
                 </p>
                 <div className="footer-social-links">
                   <ul>
@@ -59,11 +64,19 @@ const Footer = () => {
               <div className="footer-widget mb-30">
                 <h4>Quick Link</h4>
                 <ul className="footer-links">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Doctor</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about">About</a>
+                  </li>
+                  <li>
+                    <a href="#services">Services</a>
+                  </li>
+
+                  <li>
+                    <a href="#footer">Contact</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -73,12 +86,21 @@ const Footer = () => {
               <div className="footer-widget mb-30">
                 <h4>Quick Link</h4>
                 <ul className="footer-links">
-                  <li><a href="#">Cardiology</a></li>
-                  <li><a href="#">Neurology</a></li>
-                  <li><a href="#">Gastroenterology</a></li>
-                  <li><a href="#">Routine Checkup</a></li>
-                  <li><a href="#">Orthopedics</a></li>
-                  <li><a href="#">Dental Surgery</a></li>
+                  <li>
+                    <a href="#">Physiotherapy</a>
+                  </li>
+                  <li>
+                    <a href="#">Osteopathy</a>
+                  </li>
+                  <li>
+                    <a href="#">Kinesio</a>
+                  </li>
+                  <li>
+                    <a href="#">Routine Checkup</a>
+                  </li>
+                  <li>
+                    <a href="#">Orthopedics</a>
+                  </li>
                 </ul>
               </div>
             </div>

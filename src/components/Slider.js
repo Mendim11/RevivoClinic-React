@@ -27,7 +27,7 @@ const SliderComponent = () => {
       title: "Best Doctors and Equipments in Town",
       text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
       btnText: "Make Appointment",
-      btnLink: "#contact",
+      btnLink: "#footer",
       img: "/assets/img/slider-2.jpg",
     },
     {

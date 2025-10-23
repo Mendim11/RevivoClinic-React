@@ -1,0 +1,43 @@
+/* TikTok video container */
+.tiktok-container {
+  position: relative;
+  width: 100%;
+  max-width: 480px; /* control width of video */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.tiktok-embed {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: unset !important;
+  height: auto !important;
+}
+
+/* Layout fixes */
+.faq-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.faq-video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+@media (min-width: 992px) {
+  .faq-video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%; /* video on the left */
+    height: 100%;
+  }
+
+  .faq-content-wrapper {
+    position: relative;
+    z-index: 2;
+  }
+}
