@@ -1769,6 +1769,104 @@ p {
   box-shadow: 0 0 25px rgba(0, 173, 181, 0.15);
 }
 
+/* ===============
+Consulting css
+================== */
+.consulting-section {
+  padding: 70px 20px;
+  background: #f4f7f7;
+}
+
+.consulting-container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.consulting-title {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #008b94; /* darker shade of your aqua theme */
+}
+
+.consulting-description {
+  font-size: 1.15rem;
+  color: #444;
+  margin-bottom: 50px;
+  line-height: 1.6;
+}
+
+/* Card container */
+.consulting-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* individual card */
+.consulting-card {
+  background: rgba(0, 173, 181, 0.12); /* soft version of your theme */
+  border-left: 6px solid rgba(0, 173, 181, 0.91);
+  padding: 25px 30px;
+  width: 350px;
+  border-radius: 14px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
+  text-align: left;
+  transition: transform 0.25s ease;
+}
+
+.consulting-card:hover {
+  transform: translateY(-5px);
+}
+
+.consulting-card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgba(0, 173, 181, 0.91);
+  margin-bottom: 12px;
+}
+
+.consulting-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.consulting-card ul li {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* WhatsApp Button */
+.consulting-button {
+  display: inline-block;
+  margin-top: 40px;
+  background: rgba(0, 173, 181, 0.91);
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 1.15rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.consulting-button:hover {
+  background: rgba(0, 150, 158, 1);
+}
+
+.consulting-disclaimer {
+  margin-top: 25px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+
+
+
 /*===========================
     About css 
 ===========================*/
@@ -1904,6 +2002,10 @@ p {
   color: #555;
 }
 
+/* ============
+faq section
+
+============== */
 .faq-section {
   position: relative;
   overflow: hidden;
@@ -1923,6 +2025,7 @@ p {
   overflow: hidden;
   width: 50%;
 }
+
 
 @media only screen and (min-width: 1400px) {
   .faq-section .faq-video-wrapper {
@@ -2073,17 +2176,32 @@ p {
   position: absolute;
   right: 30px;
   top: 30px;
-  font-size: 12px;
+  font-size: 20px;
+  width: 30px;      /* clickable area */
+  height: 30px;     /* clickable area */
+  display: inline-block;
+  cursor: pointer;  /* indicates it’s clickable */
+  transition: transform 0.2s ease;
+  
+}
+.faq-btn i {
+  transition: transform 0.3s ease;
 }
 
-.faq-section .faq-content-wrapper .faq-wrapper .faq-item .faq-btn i::before {
+.faq-btn:not(.collapsed) i {
+  transform: rotate(180deg);
+  /* color: rgba(0, 173, 181, 0.91);  */
+}
+
+
+/* .faq-section .faq-content-wrapper .faq-wrapper .faq-item .faq-btn i::before {
   content: "\eb2c";
   font: normal normal normal 1em/1 "LineIcons";
 }
 
 .faq-section .faq-content-wrapper .faq-wrapper .faq-item .faq-btn.collapsed i::before {
   content: "\eb53";
-}
+} */
 
 .faq-section .faq-content-wrapper .faq-wrapper .faq-item .faq-content {
   color: #fff;

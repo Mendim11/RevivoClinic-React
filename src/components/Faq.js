@@ -77,7 +77,7 @@ const Faq = () => {
                         aria-expanded="true"
                         aria-controls="collapseOne"
                       >
-                        What is an academic medical center? <i className="lni"></i>
+                        What conditions can physiotherapy help with? <i className="fa-solid fa-chevron-down"></i>
                       </button>
                     </h5>
                   </div>
@@ -88,8 +88,9 @@ const Faq = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="faq-content">
-                      Lorem ipsum dolor sit amet, consetet sadipscing elitr, sed
-                      dinonumy eirmod tempor invidunt.
+                     Physiotherapy can help with back and neck pain, joint pain, muscle injuries, 
+                     post-surgery rehabilitation, mobility problems,
+                      sports injuries, posture issues, and chronic pain conditions.
                     </div>
                   </div>
                 </div>
@@ -106,7 +107,8 @@ const Faq = () => {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
-                        How does medical research work? <i className="lni"></i>
+                        How long does a physiotherapy session typically last? <i className="fa-solid fa-chevron-down"></i>
+
                       </button>
                     </h5>
                   </div>
@@ -117,8 +119,9 @@ const Faq = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="faq-content">
-                      Lorem ipsum dolor sit amet, consetet sadipscing elitr, sed
-                      dinonumy eirmod tempor invidunt.
+                     A standard physiotherapy session usually lasts 30–45 minutes, depending on your condition 
+                     and treatment plan.
+                      Your therapist will assess your needs and decide the appropriate duration.
                     </div>
                   </div>
                 </div>
@@ -135,7 +138,7 @@ const Faq = () => {
                         aria-expanded="false"
                         aria-controls="collapseThree"
                       >
-                        What is a medical student? <i className="lni"></i>
+                       What is osteopathy, and how is it different from physiotherapy? <i className="fa-solid fa-chevron-down"></i>
                       </button>
                     </h5>
                   </div>
@@ -146,8 +149,9 @@ const Faq = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="faq-content">
-                      Lorem ipsum dolor sit amet, consetet sadipscing elitr, sed
-                      dinonumy eirmod tempor invidunt.
+                   Osteopathy focuses on the body as a whole, using gentle manual techniques to improve joint mobility, muscle balance, and overall body function.
+Physiotherapy is more exercise- and rehabilitation-based.
+Both work well together, and your therapist may combine techniques for the best results..
                     </div>
                   </div>
                 </div>
@@ -164,7 +168,7 @@ const Faq = () => {
                         aria-expanded="false"
                         aria-controls="collapseFour"
                       >
-                        How are residents supervised? <i className="lni"></i>
+                        Is manual therapy painful? <i className="fa-solid fa-chevron-down"></i>
                       </button>
                     </h5>
                   </div>
@@ -175,8 +179,9 @@ const Faq = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="faq-content">
-                      Lorem ipsum dolor sit amet, consetet sadipscing elitr, sed
-                      dinonumy eirmod tempor invidunt.
+                    Manual therapy techniques are usually gentle and should not cause significant pain. You may feel mild pressure or stretching,
+                     but it should always feel comfortable.
+                     If anything feels too intense, your therapist will adjust the technique immediately.
                     </div>
                   </div>
                 </div>

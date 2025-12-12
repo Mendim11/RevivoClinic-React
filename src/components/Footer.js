@@ -33,7 +33,7 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="fa-brands fa-facebook"></i>
+                        <i className="fa-brands fa-facebook"></i> 
                       </a>
                     </li>
                     <li>

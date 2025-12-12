@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about" className="about-section pt-120">
       <div className="shape shape-2">
-        <img src="/assets/img/shapes/shape-2.svg" alt="shape" />
+        {/* <img src="/assets/img/shapes/shape-2.svg" alt="shape" /> */}
       </div>
 
       <div className="container">
@@ -13,23 +13,25 @@ const About = () => {
             <div className="about-content text-center mb-55">
               <div className="section-title mb-30">
                 <span className="wow fadeInDown" data-wow-delay=".2s">
-                  About Us
+                  Rreth nesh
                 </span>
                 <h2 className="mb-15 wow fadeInUp" data-wow-delay=".4s">
-                  Welcome to Our Clinic
+                  Mirë se vini në Revivo Clinic
                 </h2>
               </div>
               <p className="mb-35 wow fadeInUp" data-wow-delay=".6s">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                et justo duo dolores et ea rebum Stet clita kasd gubergren,
-                no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                ipsum dolor sqit consetetur sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt.
+                Një vend ku kujdesi shëndetësor dhe mirëqenia juaj janë
+                prioriteti ynë kryesor. <br></br>Në klinikën tonë, ne besojmë se
+                çdo pacient meriton trajtim personal, të sigurt dhe të bazuar në
+                standardet më të larta profesionale. Ofrojmë një gamë të gjerë
+                shërbimesh mjekësore dhe fizioterapeutike, duke përdorur
+                teknologjinë më moderne dhe metoda të provuara shkencërisht, për
+                të siguruar rezultate të qëndrueshme dhe të besueshme. Bëhuni
+                pjesë e familjes sonë dhe le të kujdesemi së bashku për
+                shëndetin dhe mirëqenien tuaj!
               </p>
               <a
-                href="#"
+                href="#footer"
                 className="btn theme-btn wow fadeInUp"
                 data-wow-delay=".8s"
               >
@@ -41,7 +43,7 @@ const About = () => {
       </div>
 
       <div className="about-img text-center">
-        <img src="/assets/img/about/about-img.png" alt="About Clinic" />
+        <img src="/assets/img/about-img.png" alt="About Clinic" />
       </div>
     </section>
   );
