@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t, i18n } = useTranslation();
   return (
     <header id="home" className="header">
       <div className="header-wrapper">
@@ -12,7 +14,8 @@ const Header = () => {
                   <ul>
                     <li>
                       <a href="#">
-                        <i class="fa-solid fa-phone"></i> +383 49 28 55 77 & +383 49 970 903
+                        <i class="fa-solid fa-phone"></i> +383 49 28 55 77 &
+                        +383 49 970 903
                       </a>
                     </li>
                     <li>
@@ -33,7 +36,7 @@ const Header = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                     <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
@@ -51,8 +54,16 @@ const Header = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                       <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-instagram"></i>
                       </a>
+                    </li>
+                    <li>
+                      <button className="lang-btn" onClick={() => i18n.changeLanguage("en")}>
+                        EN
+                      </button>
+                      <button className="lang-btn" onClick={() => i18n.changeLanguage("sq")}>
+                        SQ
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -88,24 +99,24 @@ const Header = () => {
                     id="navbarSupportedContent"
                   >
                     <ul id="nav" className="navbar-nav ml-auto">
-                      <li className="nav-item active">
-                        <a className="page-scroll active" href="#home">
-                          Home
+                      <li className="nav-item">
+                        <a className="page-scroll" href="#home">
+                          {t("nav.home")}
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="page-scroll" href="#about">
-                          About
+                          {t("nav.about")}
                         </a>
                       </li>
                       <li className="nav-item">
                         <a className="page-scroll" href="#services">
-                          Service
+                          {t("nav.services")}
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="page-scroll" href="#contact">
-                          Contact
+                        <a className="page-scroll" href="#footer">
+                          {t("nav.contact")}
                         </a>
                       </li>
                     </ul>

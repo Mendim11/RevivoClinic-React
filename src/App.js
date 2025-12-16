@@ -8,6 +8,8 @@ import Services from "./components/Services";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Consulting from "./components/Consulting";
+import './i18n';
+
 
 function App() {
   return (

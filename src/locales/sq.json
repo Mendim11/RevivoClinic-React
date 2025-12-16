@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "home": "Kreu",
+    "about": "Rreth Nesh",
+    "services": "Shërbimet",
+    "contact": "Kontakt"
+  },
+ "slider": {
+    "completeHealthcareTitle": "Zgjidhje e Plotë për Kujdesin Shëndetësor",
+    "completeHealthcareText": "Ofrojmë një gamë të plotë shërbimesh shëndetësore për të përmbushur të gjitha nevojat tuaja. Nga diagnoza deri te trajtimi dhe rehabilitimi, ekipi ynë i përkushtuar siguron kujdes të plotë dhe personalizuar në çdo hap.",
+    "completeHealthcareBtn": "Mëso Më Shumë",
+
+    "bestDoctorsTitle": "Mjekët dhe Pajisjet Më të Mirë në Vend",
+    "bestDoctorsText": "Klinika jonë kombinon kujdesin ekspert me pajisje moderne për të siguruar që çdo pacient të marrë trajtim të personalizuar dhe standardin më të lartë të fizioterapisë. Shëndeti dhe rikuperimi juaj janë prioriteti ynë.",
+    "bestDoctorsBtn": "Bëj Takim",
+
+    "healthPriorityTitle": "Shëndeti Juaj është Prioriteti Ynë Kryesor",
+    "healthPriorityText": "Në klinikën tonë, çdo vendim udhëhiqet nga mirëqenia juaj. Me kujdes të përzemërt, trajtime të avancuara dhe qasje të fokusuar tek pacienti, ne sigurojmë që të merrni mbështetjen që meritoni për një rikuperim më të shpejtë dhe më të shëndetshëm.",
+    "healthPriorityBtn": "Shërbimet Tona"
+  },
+  "consulting": {
+    "title": "Konsultim Online i Fizioterapisë & Osteopatisë",
+    "description": "Merrni udhëzime profesionale të fizioterapisë dhe osteopatisë nga telefoni juaj. Çdo konsultë është e personalizuar — tregoni simptomat tuaja dhe unë do t'ju udhëzoj hap pas hapi.",
+    "card1": {
+      "title": "Për Çfarë Mund T'Ju Ndihmoj",
+      "item1": "Dhimbje shpine, qafe dhe shpatullash",
+      "item2": "Tension muskulor dhe probleme lëvizshmërie",
+      "item3": "Udhëzime për rikuperim nga lëndimet",
+      "item4": "Analizë e qëndrimit",
+      "item5": "Rekomandime ushtrimesh",
+      "item6": "Mbështetje rehabilitimi"
+    },
+    "card2": {
+      "title": "Çfarë Do të Merrni",
+      "item1": "Udhëzime të personalizuara bazuar në simptoma",
+      "item2": "Këshilla për trajtim në shtëpi",
+      "item3": "Ushtrime të personalizuara (nëse është e nevojshme)",
+      "item4": "Vlerësim bazuar në foto/video tuaja",
+      "item5": "Mbështetje në Whatsapp",
+      "item6": "Hapa të qartë për vijim"
+    },
+    "button": "Bisedo në WhatsApp",
+    "disclaimer": "*Kjo konsultë online ofron udhëzime të përgjithshme dhe nuk zëvendëson një ekzaminim mjekësor personal kur është i nevojshëm.*"
+  },
+   "about": {
+    "subtitle": "Rreth nesh",
+    "title": "Mirësevini në Revivo Clinic",
+    "text": "Një vend ku kujdesi për shëndetin dhe mirëqenia juaj janë prioriteti ynë kryesor. Në klinikën tonë, besojmë se çdo pacient meriton trajtim personal, të sigurt dhe të bazuar në standardet më të larta profesionale. Ne ofrojmë një gamë të gjerë shërbimesh mjekësore dhe fizioterapeutike, duke përdorur teknologjinë më moderne dhe metodat shkencërisht të provuara për të siguruar rezultate të qëndrueshme dhe të besueshme. Bëhuni pjesë e familjes tonë, dhe le të kujdesemi së bashku për shëndetin dhe mirëqenien tuaj!",
+    "button": "Mëso më shumë",
+    "imageAlt": "Rreth Klinikës"
+  },
+   "services": {
+    "title": "Shërbimet tona mjekësore",
+    "subtitle": "Ne ofrojmë një gamë të shërbimeve shëndetësore të përshtatura për nevojat tuaja.",
+    "items": {
+      "physiotherapy": {
+        "title": "Rehabilitimi i Fizioterapisë",
+        "text": "Fizioterapia fokusohet në rikthimin e lëvizjes, forcës dhe funksionit pas dëmtimit, kirurgjisë ose gjendjeve afatgjata me dhimbje. Planet e trajtimit janë të personalizuara dhe mund të përfshijnë ushtrime, teknika manuale dhe ri-mësim të lëvizjes për të ndihmuar rikthimin e sigurt në aktivitetet e përditshme."
+      },
+      "osteopathy": {
+        "title": "Trajtimi Osteopatik",
+        "text": "Osteopatia ndjek një qasje holistike, duke trajtuar trupin si një sistem të lidhur. Me teknika të buta manuale, ndihmon në përmirësimin e lëvizshmërisë së nyjeve, ekuilibrit të muskujve, qarkullimit dhe funksionit të përgjithshëm të trupit, duke mbështetur shërimin natyror."
+      },
+      "manual": {
+        "title": "Terapia Manuale",
+        "text": "Terapia manuale përfshin teknika të specializuara si mobilizimi i nyjeve, çlirimi i indeve të buta dhe shtrirjet. Ndihmon në reduktimin e dhimbjes, përmirësimin e fleksibilitetit dhe rikthimin e lëvizjes normale, veçanërisht në shpinë dhe nyje."
+      },
+      "sports": {
+        "title": "Trajtimi i Lëndimeve Sportive",
+        "text": "Ky shërbim fokusohet në diagnostikimin, trajtimin dhe parandalimin e lëndimeve të lidhura me aktivitetin fizik dhe sportin. Trajtimi ndihmon atletët të rikuperohen më shpejt, përmirësojnë performancën dhe reduktojnë rrezikun e lëndimeve të ardhshme përmes rehabilitimit të synuar."
+      },
+      "posture": {
+        "title": "Vlerësimi dhe Korrektimi i Posturës",
+        "text": "Vlerësimi i posturës identifikon pabarazitë e shkaktuara nga qëndrimi i gjatë ulur, zakonet e këqija të lëvizjes ose stresi i punës. Ushtrimet korrigjuese dhe trajtimi manual ndihmojnë për përmirësimin e posturës, reduktimin e dhimbjes dhe parandalimin e problemeve muskulokeletale afatgjata."
+      },
+      "chronic": {
+        "title": "Menaxhimi i Dhimbjes Kronike",
+        "text": "Trajtimi i dhimbjes kronike ka për qëllim reduktimin e parehatisë afatgjatë dhe përmirësimin e cilësisë së jetës. Përdoret një kombinim i terapisë manuale, ushtrimeve dhe edukimit për të menaxhuar gjendjet e dhimbjes në mënyrë të sigurt dhe efektive."
+      },
+      "learnMore": "Mëso më shumë"
+    }
+  },
+  "faq": {
+    "title": "Pyetjet më të shpeshta",
+    "subtitle": "Merrni çdo përgjigje nëse dëshironi",
+    "q1": "Me cilat gjendje mund të ndihmojë fizioterapia?",
+    "a1": "Fizioterapia mund të ndihmojë me dhimbje shpine dhe qafe, dhimbje të nyjeve, dëmtime të muskujve, rehabilitim pas operacionit, probleme me lëvizshmërinë, lëndime sportive, probleme të qëndrimit dhe kushte kronike dhimbjeje.",
+    "q2": "Sa zgjat zakonisht një seancë fizioterapie?",
+    "a2": "Një seancë standarde fizioterapie zakonisht zgjat 30–45 minuta, në varësi të gjendjes dhe planit të trajtimit. Terapisti juaj do të vlerësojë nevojat tuaja dhe do të vendosë kohëzgjatjen e përshtatshme.",
+    "q3": "Çfarë është osteopatia dhe si ndryshon nga fizioterapia?",
+    "a3": "Osteopatia fokusohet në trup si një tërësi, duke përdorur teknika të buta manuale për të përmirësuar lëvizshmërinë e nyjeve, ekuilibrin e muskujve dhe funksionin e përgjithshëm të trupit. Fizioterapia është më e bazuar në ushtrime dhe rehabilitim. Të dyja funksionojnë mirë së bashku, dhe terapisti juaj mund të kombinojë teknika për rezultatet më të mira.",
+    "q4": "A është terapia manuale e dhimbshme?",
+    "a4": "Teknikat e terapisë manuale zakonisht janë të buta dhe nuk duhet të shkaktojnë dhimbje të konsiderueshme. Mund të ndjeni presion të lehtë ose shtrirje, por gjithmonë duhet të ndjehet komode. Nëse diçka duket shumë intensive, terapisti juaj do ta rregullojë menjëherë teknikat."
+  },
+  
+  "footer": {
+    "contactText": "PËR TAKIME MUND TË NA SHKRUANI NË RRJETET SOCIALE MË POSHTË OSE TË THËRRISNI NË KËTA NUMRA: +383 49 28 55 77 & +383 49 970 903",
+    "quickLinks": "Lidhje të Shpejta",
+    "service1": "Fizioterapi",
+    "service2": "Osteopati",
+    "service3": "Kinezi",
+    "service4": "Kontroll Rutine",
+    "service5": "Ortopedi",
+    "locationTitle": "Lokacioni i Revivo",
+    "designedBy": "Designed and Developed by"
+  }
+}
+
+
+

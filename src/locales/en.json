@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "slider": {
+    "completeHealthcareTitle": "Complete Healthcare Solution",
+    "completeHealthcareText": "We offer a full range of healthcare services designed to meet all your wellness needs under one roof. From diagnosis to treatment and rehabilitation, our dedicated team ensures you receive comprehensive, personalised care every step of the way.",
+    "completeHealthcareBtn": "Learn More",
+
+    "bestDoctorsTitle": "Best Doctors and Equipments in Town",
+    "bestDoctorsText": "Our clinic combines expert care with state-of-the-art equipment to ensure every patient receives personalized treatment and the highest standard of physiotherapy. Your health and recovery are our top priorities.",
+    "bestDoctorsBtn": "Make Appointment",
+
+    "healthPriorityTitle": "Your Health is Our Top Priority",
+    "healthPriorityText": "At our clinic, every decision is guided by your well-being. With compassionate care, advanced treatments, and a patient-focused approach, we ensure you get the support and attention you deserve for a faster, healthier recovery.",
+    "healthPriorityBtn": "Our Services"
+  },
+  "consulting": {
+    "title": "Online Physiotherapy & Osteopathy Consultation",
+    "description": "Get professional physiotherapy and osteopathy guidance from your phone. Every consultation is personalized — tell me your symptoms and I will guide you step by step.",
+    "card1": {
+      "title": "What I Can Help With",
+      "item1": "Back, neck, & shoulder pain",
+      "item2": "Muscle tension & mobility issues",
+      "item3": "Injury recovery guidance",
+      "item4": "Posture analysis",
+      "item5": "Exercise recommendations",
+      "item6": "Rehabilitation support"
+    },
+    "card2": {
+      "title": "What You Will Receive",
+      "item1": "Personalised symptom-based guidance",
+      "item2": "Home treatment advice",
+      "item3": "Custom exercises (if needed)",
+      "item4": "Assessment based on your photos/videos",
+      "item5": "Whatsapp support",
+      "item6": "Clear next steps"
+    },
+    "button": "Chat on WhatsApp",
+    "disclaimer": "*This online consultation provides general guidance and does not replace an in-person medical examination when required.*"
+  },
+  
+  "about": {
+    "subtitle": "About us",
+    "title": "Welcome to Revivo Clinic",
+    "text": "A place where your health care and well-being are our top priority. At our clinic, we believe that every patient deserves personalized, safe care based on the highest professional standards. We offer a wide range of medical and physiotherapy services, using the most modern technology and scientifically proven methods to ensure consistent and reliable results. Become part of our family, and let us take care of your health and well-being together!",
+    "button": "Learn More",
+    "imageAlt": "About Clinic"
+  },
+   "services": {
+    "title": "Our Medical Services",
+    "subtitle": "We offer a variety of healthcare services tailored to meet your needs.",
+    "items": {
+      "physiotherapy": {
+        "title": "Physiotherapy Rehab",
+        "text": "Physiotherapy focuses on restoring movement, strength, and function after injury, surgery, or long-term pain conditions. Treatment plans are personalised and may include exercises, manual techniques, and movement re-education to help you return safely to daily activities."
+      },
+      "osteopathy": {
+        "title": "Osteopathy Treatment",
+        "text": "Osteopathy takes a holistic approach, treating the body as a connected system. Using gentle hands-on techniques, osteopathy helps improve joint mobility, muscle balance, circulation, and overall body function, supporting natural healing."
+      },
+      "manual": {
+        "title": "Manual Therapy",
+        "text": "Manual therapy involves specialised hands-on techniques such as joint mobilisation, soft tissue release, and stretching. It helps reduce pain, improve flexibility, and restore normal movement, especially in the spine and joints."
+      },
+      "sports": {
+        "title": "Sports Injury Treatment",
+        "text": "This service focuses on diagnosing, treating, and preventing injuries related to physical activity and sports. Treatment helps athletes recover faster, improve performance, and reduce the risk of future injuries through targeted rehabilitation."
+      },
+      "posture": {
+        "title": "Postural Assessment & Correction",
+        "text": "Postural assessment identifies imbalances caused by prolonged sitting, poor movement habits, or work-related strain. Corrective exercises and manual treatment help improve posture, reduce pain, and prevent long-term musculoskeletal problems."
+      },
+      "chronic": {
+        "title": "Chronic Pain Management",
+        "text": "Chronic pain treatment aims to reduce long-term discomfort and improve quality of life. A combination of manual therapy, exercise, and education is used to manage pain conditions safely and effectively."
+      },
+      "learnMore": "Learn More"
+    }
+  },
+    "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get Every Single Answer There if You Want",
+    "q1": "What conditions can physiotherapy help with?",
+    "a1": "Physiotherapy can help with back and neck pain, joint pain, muscle injuries, post-surgery rehabilitation, mobility problems, sports injuries, posture issues, and chronic pain conditions.",
+    "q2": "How long does a physiotherapy session typically last?",
+    "a2": "A standard physiotherapy session usually lasts 30–45 minutes, depending on your condition and treatment plan. Your therapist will assess your needs and decide the appropriate duration.",
+    "q3": "What is osteopathy, and how is it different from physiotherapy?",
+    "a3": "Osteopathy focuses on the body as a whole, using gentle manual techniques to improve joint mobility, muscle balance, and overall body function. Physiotherapy is more exercise- and rehabilitation-based. Both work well together, and your therapist may combine techniques for the best results.",
+    "q4": "Is manual therapy painful?",
+    "a4": "Manual therapy techniques are usually gentle and should not cause significant pain. You may feel mild pressure or stretching, but it should always feel comfortable. If anything feels too intense, your therapist will adjust the technique immediately."
+  },
+   "footer": {
+    "contactText": "FOR APPOINTMENTS YOU CAN WRITE US ON SOCIAL MEDIAS BELOW OR CALL ON THESE NUMBERS: +383 49 28 55 77 & +383 49 970 903",
+    "quickLinks": "Quick Links",
+    "service1": "Physiotherapy",
+    "service2": "Osteopathy",
+    "service3": "Kinesio",
+    "service4": "Routine Checkup",
+    "service5": "Orthopedics",
+    "locationTitle": "Revivo Location",
+    "designedBy": "Designed and Developed By"
+  }
+}
+
+
+

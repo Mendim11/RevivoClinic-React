@@ -1,40 +1,39 @@
 import React from "react";
-
+import { useTranslation } from "react-i18next";
 
 function Consulting() {
+  const { t } = useTranslation();
+
   return (
     <section className="consulting-section">
       <div className="consulting-container">
 
-        <h2 className="consulting-title">Online Physiotherapy & Osteopathy Consultation</h2>
+        <h2 className="consulting-title">{t("consulting.title")}</h2>
 
-        <p className="consulting-description">
-          Get professional physiotherapy and osteopathy guidance from your phone. 
-          Every consultation is personalized — tell me your symptoms and I will guide you step by step.
-        </p>
+        <p className="consulting-description">{t("consulting.description")}</p>
 
         <div className="consulting-cards">
           <div className="consulting-card">
-            <h3 className="consulting-card-title">What I Can Help With</h3>
+            <h3 className="consulting-card-title">{t("consulting.card1.title")}</h3>
             <ul>
-              <li>Back, neck, & shoulder pain</li>
-              <li>Muscle tension & mobility issues</li>
-              <li>Injury recovery guidance</li>
-              <li>Posture analysis</li>
-              <li>Exercise recommendations</li>
-              <li>Rehabilitation support</li>
+              <li>{t("consulting.card1.item1")}</li>
+              <li>{t("consulting.card1.item2")}</li>
+              <li>{t("consulting.card1.item3")}</li>
+              <li>{t("consulting.card1.item4")}</li>
+              <li>{t("consulting.card1.item5")}</li>
+              <li>{t("consulting.card1.item6")}</li>
             </ul>
           </div>
 
           <div className="consulting-card">
-            <h3 className="consulting-card-title">What You Will Receive</h3>
+            <h3 className="consulting-card-title">{t("consulting.card2.title")}</h3>
             <ul>
-              <li>Personalised symptom-based guidance</li>
-              <li>Home treatment advice</li>
-              <li>Custom exercises (if needed)</li>
-              <li>Assessment based on your photos/videos</li>
-              <li>Whatsapp support</li>
-              <li>Clear next steps</li>
+              <li>{t("consulting.card2.item1")}</li>
+              <li>{t("consulting.card2.item2")}</li>
+              <li>{t("consulting.card2.item3")}</li>
+              <li>{t("consulting.card2.item4")}</li>
+              <li>{t("consulting.card2.item5")}</li>
+              <li>{t("consulting.card2.item6")}</li>
             </ul>
           </div>
         </div>
@@ -45,12 +44,10 @@ function Consulting() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Chat on WhatsApp
+          {t("consulting.button")}
         </a>
 
-        <p className="consulting-disclaimer">
-          *This online consultation provides general guidance and does not replace an in-person medical examination when required.*
-        </p>
+        <p className="consulting-disclaimer">{t("consulting.disclaimer")}</p>
 
       </div>
     </section>

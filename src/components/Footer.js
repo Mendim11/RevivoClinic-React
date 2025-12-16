@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer
       id="footer"
@@ -20,11 +23,7 @@ const Footer = () => {
                     width="150px"
                   />
                 </a>
-                <p>
-                  FOR APPOINTMENTS YOU CAN WRITE US ON SOCIAL MEDIAS BELOW OR
-                  CALL ON THESE NUMBERS: <br></br>
-                  +383 49 28 55 77 & +383 49 970 903
-                </p>
+                <p>{t("footer.contactText")}</p>
                 <div className="footer-social-links">
                   <ul>
                     <li>
@@ -33,7 +32,7 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className="fa-brands fa-facebook"></i> 
+                        <i className="fa-brands fa-facebook"></i>
                       </a>
                     </li>
                     <li>
@@ -62,20 +61,19 @@ const Footer = () => {
             {/* Quick Links Column 1 */}
             <div className="col-xl-2 col-lg-3 col-md-6">
               <div className="footer-widget mb-30">
-                <h4>Quick Link</h4>
+                <h4>{t("footer.quickLinks")}</h4>
                 <ul className="footer-links">
                   <li>
-                    <a href="#">Home</a>
+                    <a href="#home">{t("nav.home")}</a>
                   </li>
                   <li>
-                    <a href="#about">About</a>
+                    <a href="#about">{t("nav.about")}</a>
                   </li>
                   <li>
-                    <a href="#services">Services</a>
+                    <a href="#services">{t("nav.services")}</a>
                   </li>
-
                   <li>
-                    <a href="#footer">Contact</a>
+                    <a href="#footer">{t("nav.contact")}</a>
                   </li>
                 </ul>
               </div>
@@ -84,23 +82,13 @@ const Footer = () => {
             {/* Quick Links Column 2 */}
             <div className="col-xl-2 col-lg-3 col-md-5">
               <div className="footer-widget mb-30">
-                <h4>Quick Link</h4>
+                <h4>{t("footer.quickLinks")}</h4>
                 <ul className="footer-links">
-                  <li>
-                    <a href="#">Physiotherapy</a>
-                  </li>
-                  <li>
-                    <a href="#">Osteopathy</a>
-                  </li>
-                  <li>
-                    <a href="#">Kinesio</a>
-                  </li>
-                  <li>
-                    <a href="#">Routine Checkup</a>
-                  </li>
-                  <li>
-                    <a href="#">Orthopedics</a>
-                  </li>
+                  <li>{t("footer.service1")}</li>
+                  <li>{t("footer.service2")}</li>
+                  <li>{t("footer.service3")}</li>
+                  <li>{t("footer.service4")}</li>
+                  <li>{t("footer.service5")}</li>
                 </ul>
               </div>
             </div>
@@ -108,7 +96,7 @@ const Footer = () => {
             {/* Map */}
             <div className="col-xl-4 col-lg-12 col-md-7">
               <div className="footer-widget mb-30">
-                <h4>Revivo Location</h4>
+                <h4>{t("footer.locationTitle")}</h4>
                 <div className="map-canvas">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.196861594489!2d21.147965199999998!3d42.6571835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549f77d18f684d%3A0xccbf216b93d4c43c!2sRevivo%20Clinic!5e0!3m2!1sen!2s!4v1760970616118!5m2!1sen!2s"
@@ -129,7 +117,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="copyright-area">
           <p className="mb-0 text-center">
-            Designed and Developed By{" "}
+            {t("footer.designedBy")}{" "}
             <a
               href="https://mendim-gashi-portfolio.netlify.app/"
               rel="nofollow"

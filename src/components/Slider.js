@@ -2,8 +2,11 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useTranslation } from "react-i18next";
 
 const SliderComponent = () => {
+  const { t } = useTranslation();
+
   const settings = {
     dots: true,
     infinite: true,
@@ -17,23 +20,23 @@ const SliderComponent = () => {
 
   const slides = [
     {
-      title: "Complete Healthcare Solution",
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-      btnText: "Learn More",
+      titleKey: "slider.completeHealthcareTitle",
+      textKey: "slider.completeHealthcareText",
+      btnTextKey: "slider.completeHealthcareBtn",
       btnLink: "#about",
       img: "/assets/img/slider-1.jpg",
     },
     {
-      title: "Best Doctors and Equipments in Town",
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-      btnText: "Make Appointment",
+      titleKey: "slider.bestDoctorsTitle",
+      textKey: "slider.bestDoctorsText",
+      btnTextKey: "slider.bestDoctorsBtn",
       btnLink: "#footer",
       img: "/assets/img/slider-2.jpg",
     },
     {
-      title: "Your Health is Our Top Priority",
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
-      btnText: "Our Services",
+      titleKey: "slider.healthPriorityTitle",
+      textKey: "slider.healthPriorityText",
+      btnTextKey: "slider.healthPriorityBtn",
       btnLink: "#services",
       img: "/assets/img/slider-3.jpg",
     },
@@ -54,10 +57,9 @@ const SliderComponent = () => {
                 alignItems: "center",
               }}
             >
-              {/* Background Image */}
               <img
                 src={slide.img}
-                alt={slide.title}
+                alt={t(slide.titleKey)}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -69,7 +71,6 @@ const SliderComponent = () => {
                 }}
               />
 
-              {/* Gradient Overlay */}
               <div
                 style={{
                   position: "absolute",
@@ -83,7 +84,6 @@ const SliderComponent = () => {
                 }}
               ></div>
 
-              {/* Slider Content */}
               <div
                 className="container"
                 style={{ position: "relative", zIndex: 2, color: "#fff" }}
@@ -91,13 +91,13 @@ const SliderComponent = () => {
                 <div className="row">
                   <div className="col-xl-7 col-lg-8 col-md-10">
                     <div className="slider-content">
-                      <h1>{slide.title}</h1>
-                      <p>{slide.text}</p>
+                      <h1>{t(slide.titleKey)}</h1>
+                      <p>{t(slide.textKey)}</p>
                       <a
                         href={slide.btnLink}
                         className="btn theme-btn page-scroll"
                       >
-                        {slide.btnText}
+                        {t(slide.btnTextKey)}
                       </a>
                     </div>
                   </div>
