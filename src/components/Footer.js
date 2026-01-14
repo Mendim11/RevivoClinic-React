@@ -87,8 +87,8 @@ const Footer = () => {
                   <li>{t("footer.service1")}</li>
                   <li>{t("footer.service2")}</li>
                   <li>{t("footer.service3")}</li>
-                  <li>{t("footer.service4")}</li>
                   <li>{t("footer.service5")}</li>
+                  <li>{t("footer.service4")}</li>
                 </ul>
               </div>
             </div>
