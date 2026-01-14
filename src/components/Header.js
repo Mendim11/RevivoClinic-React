@@ -1,8 +1,16 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
+
+
+
 
 const Header = () => {
   const { t, i18n } = useTranslation();
+  const [menuOpen, setMenuOpen] = useState(false);
+    const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
   return (
     <header id="home" className="header">
       <div className="header-wrapper">
@@ -80,44 +88,72 @@ const Header = () => {
                   <a className="navbar-brand" href="index.html">
                     <img src="assets/img/logo_revivo.png" alt="Logo" />
                   </a>
-                  <button
-                    className="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                  >
-                    <span className="toggler-icon"></span>
-                    <span className="toggler-icon"></span>
-                    <span className="toggler-icon"></span>
-                  </button>
+
+                  <div className="d-flex align-items-center ml-auto">
+                    <div className="mobile-lang d-lg-none mr-2">
+                      <button className="lang-btn" onClick={() => i18n.changeLanguage("en")}>EN</button>
+                      <button className="lang-btn" onClick={() => i18n.changeLanguage("sq")}>SQ</button>
+                    </div>
+
+                    <button
+                      className="navbar-toggler"
+                      type="button"
+                      onClick={toggleMenu}
+                      aria-label="Toggle navigation"
+                    >
+                      <span className="toggler-icon"></span>
+                      <span className="toggler-icon"></span>
+                      <span className="toggler-icon"></span>
+                    </button>
+                  </div>
+
+
 
                   <div
-                    className="collapse navbar-collapse sub-menu-bar"
+                    className={`collapse navbar-collapse sub-menu-bar ${menuOpen ? "show" : ""}`}
                     id="navbarSupportedContent"
                   >
+
                     <ul id="nav" className="navbar-nav ml-auto">
                       <li className="nav-item">
-                        <a className="page-scroll" href="#home">
+                        <a
+                          className="page-scroll"
+                          href="#home"
+                          onClick={() => setMenuOpen(false)}
+                        >
                           {t("nav.home")}
                         </a>
+
                       </li>
                       <li className="nav-item">
-                        <a className="page-scroll" href="#about">
+                        <a
+                          className="page-scroll"
+                          href="#about"
+                          onClick={() => setMenuOpen(false)}
+                        >
                           {t("nav.about")}
                         </a>
+
                       </li>
                       <li className="nav-item">
-                        <a className="page-scroll" href="#services">
+                        <a
+                          className="page-scroll"
+                          href="#services"
+                          onClick={() => setMenuOpen(false)}
+                        >
                           {t("nav.services")}
                         </a>
+
                       </li>
                       <li className="nav-item">
-                        <a className="page-scroll" href="#footer">
+                        <a
+                          className="page-scroll"
+                          href="#footer"
+                          onClick={() => setMenuOpen(false)}
+                        >
                           {t("nav.contact")}
                         </a>
+
                       </li>
                     </ul>
                   </div>
